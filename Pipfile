@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+celery = "*"
+django-celery-beat = "*"
+redis = "*"
+gunicorn = "*"
+flower = "*"
+psycopg2-binary = "*"
+
+[dev-packages]
+flake8 = "*"
+yapf = "*"
+django-dotenv = "*"
+
+[requires]
+python_version = "3.10"
